@@ -1,0 +1,9 @@
+.Nav {
+    max-width: 1200px;
+}
+.NavList {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+}

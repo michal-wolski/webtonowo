@@ -1,8 +1,8 @@
-import './App.css';
+import Navbar from "./components/NavBar"
 
 function App() {
   return (
-    <div>lets goo</div>
+    <Navbar />
   );
 }
 
