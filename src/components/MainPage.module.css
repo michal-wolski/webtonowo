@@ -1,0 +1,12 @@
+.MainContainer {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 0 20px;
+  display: flex;
+}
+.MainImage {
+  background-color: red;
+}
+.MainContent {
+  background-color: green;
+}
