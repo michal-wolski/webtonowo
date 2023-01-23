@@ -1,17 +1,16 @@
-import css from "./NavBar.module.css"
-
+import css from "./NavBar.module.css";
 
 const Navbar = () => {
-    return (
-      <div className={css.Nav}>
-        <ul className={css.NavList}>
+  return (
+    <div className={css.Nav}>
+      <div className={css.NavList}>
         <a href="/">Home</a>
         <a href="/">Manga</a>
         <a href="/">Kontakt</a>
         <a href="/">Ekipa</a>
-        </ul>
       </div>
-    );
-  };
+    </div>
+  );
+};
 
-export default Navbar
+export default Navbar;
