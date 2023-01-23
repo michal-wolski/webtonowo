@@ -9,7 +9,7 @@
   gap: 50px;
 }
 .NavListItem {
-  background-color: aqua;
+  background-color: white;
   text-decoration: none;
   width: 120px;
   height: 50px;
@@ -17,4 +17,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 100;
+  font-size: 25px;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 10px 30px;
+  border: solid #d62828 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.NavListItem:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(-0px);
+  background-color: #fff;
+  color: #264653;
+  border: solid 2px #f4a261;
 }

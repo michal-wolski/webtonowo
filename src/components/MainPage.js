@@ -1,5 +1,4 @@
 import css from "./MainPage.module.css";
-import image from "../images/MainImage.png";
 import image2 from "../images/1.png";
 import image3 from "../images/2.png";
 
@@ -7,8 +6,8 @@ const MainPage = () => {
   return (
     <div className={css.MainContainer}>
       <div className={css.MainImage}>
-        <img src={image2} alt="onepunmchman" width="1200px" />
-        <img src={image3} alt="onepunmchman" width="1200px" />
+        <img src={image2} alt="onepunmchman" width="80%" />
+        {/* <img src={image3} alt="onepunmchman" width="1200px" /> */}
       </div>
       <div className={css.MainContent}>
         What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
