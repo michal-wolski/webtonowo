@@ -1,6 +1,6 @@
 import css from "./MainPage.module.css";
 import image2 from "../images/1.png";
-import image3 from "../images/2.png";
+
 
 const MainPage = () => {
   return (

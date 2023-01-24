@@ -1,6 +1,7 @@
 .MainContainer {
   max-width: 1200px;
   margin: 100px auto;
+  background-color: #01d566;
 }
 .MainImage {
   margin-bottom: 50px;

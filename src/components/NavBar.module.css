@@ -1,43 +1,33 @@
 .Nav {
-  max-width: 1200px;
-  margin: 100px auto;
-  /* padding: 0px 100px; */
+  max-width: 1200px; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: #01d566;
 }
 .NavList {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 60px;
+  background-color: #fff;
   gap: 50px;
+  border-radius: 10px;
+  text-align: center;
 }
 .NavListItem {
   background-color: white;
+  color: #000;
+  padding-top: 5px;
   text-decoration: none;
-  width: 120px;
-  height: 50px;
+  height: 30px;
+  width: 100px;
+  border: 1px solid;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 100;
-  font-size: 25px;
-  color: #000000;
-  background-color: #ffffff;
-  padding: 10px 30px;
-  border: solid #d62828 2px;
-  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
-  border-radius: 50px;
-  transition: 1000ms;
-  transform: translateY(0);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  cursor: pointer;
-  text-transform: uppercase;
 }
 .NavListItem:hover {
-  transition: 1000ms;
-  padding: 10px 50px;
-  transform: translateY(-0px);
+  
   background-color: #fff;
-  color: #264653;
-  border: solid 2px #f4a261;
+
 }
