@@ -3,18 +3,20 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  background-color: #01d566;
+  
 }
 .NavList {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 800px;
-  height: 60px;
+  width: 100vw;
+  height: 100px;
   background-color: #fff;
   gap: 50px;
-  border-radius: 10px;
+  border-radius: 10px 10px 0px 0px;
   text-align: center;
+  background-color: #01d566;
+  border-bottom: 2px solid white;
 }
 .NavListItem {
   background-color: white;

@@ -1,22 +1,20 @@
 import css from "./NavBar.module.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className={css.Nav}>
-      <div className={css.NavList}>
-        <a className={css.NavListItem} href="/">
+      <nav className={css.NavList}>
+        <NavLink className={css.NavListItem} to="/">
           Home
-        </a>
-        <a className={css.NavListItem} href="/">
+        </NavLink>
+        <NavLink className={css.NavListItem} to="/manga">
           Manga
-        </a>
-        <a className={css.NavListItem} href="/">
+        </NavLink>
+        <NavLink className={css.NavListItem} to="/contact">
           Kontakt
-        </a>
-        <a className={css.NavListItem} href="/">
-          Ekipa
-        </a>
-      </div>
+        </NavLink>
+      </nav>
     </div>
   );
 };
