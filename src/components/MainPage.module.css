@@ -1,16 +1,23 @@
 .MainContainer {
   max-width: 1200px;
+  min-height: 500px;
   margin: 0 auto;
   background-color: #01d566;
   display: flex;
   color: white;
-  border-radius: 0px 0px 10px 10px;
 }
 .MainSection {
   margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .MainImage {
+  flex: 1;
   padding-top: 50px;
   margin-bottom: 50px;
   text-align: center;
+}
+.MainContent {
+  flex: 1;
 }
