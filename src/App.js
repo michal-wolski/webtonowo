@@ -2,6 +2,7 @@ import Navbar from "./components/NavBar";
 import MainPage from "./components/MainPage";
 import MangaPage from "./components/MangaPage";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
             <>
               <Navbar />
               <MainPage />
+              <Footer />
             </>
           }
         />
@@ -23,6 +25,7 @@ function App() {
             <>
               <Navbar />
               <MangaPage />
+              <Footer />
             </>
           }
         />
@@ -32,6 +35,7 @@ function App() {
             <>
               <Navbar />
               <Contact />
+              <Footer />
             </>
           }
         />
