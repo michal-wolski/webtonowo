@@ -1,25 +1,23 @@
 import css from "./MainPage.module.css";
-import image2 from "../images/1.png";
+import image from "../images/onepunch.jpg";
 
 const MainPage = () => {
   return (
     <div className={css.MainContainer}>
-      <div className={css.MainSection}>
-        <div className={css.MainImage}>
-          <img src={image2} alt="logo" width="80%" />
-          {/* <img src={image3} alt="onepunmchman" width="1200px" /> */}
-        </div>
-        <div className={css.MainContent}>
+      <div className={css.LeftBox}>
+        <h2 className={css.Title}>Shotgun Boys</h2>
+        <p className={css.Description}>
           What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
-          and typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s, when an unknown printer took a galley
-          of type and scrambled it to make a type specimen book. It has survived
-          not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in
-          the 1960s with the release of Letraset sheets containing Lorem Ipsum
-          passages, and more recently with desktop publishing software like
-          Aldus PageMaker including versions of Lorem Ipsum.
-        </div>
+          and typesetting industry.
+        </p>
+      </div>
+      <div className={css.RightBox}>
+        <img
+          className={css.Image}
+          src={image}
+          alt="onepunmchman"
+          width="256px"
+        />
       </div>
     </div>
   );
