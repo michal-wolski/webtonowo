@@ -1,35 +1,34 @@
 .Nav {
-  max-width: 1200px; 
-  margin: 0 auto;
+  /* width: 100vw; */
+  height: 87px;
+  background: rgba(0, 0, 0, 0.8);
   display: flex;
-  justify-content: center;
-  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+}
+.Logo {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.Logo:hover {
+  color:#01d566;
 }
 .NavList {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100px;
-  background-color: #fff;
-  gap: 50px;
-  border-radius: 10px 10px 0px 0px;
-  text-align: center;
-  background-color: #01d566;
-  border-bottom: 2px solid white;
+  gap: 25px;
 }
 .NavListItem {
-  background-color: white;
-  color: #000;
-  padding-top: 5px;
+  color: rgba(255, 255, 255, 1);
   text-decoration: none;
-  height: 30px;
-  width: 100px;
-  border: 1px solid;
-  border-radius: 10px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
 }
 .NavListItem:hover {
-  
-  background-color: #fff;
-
+  color: #01d566;
 }
