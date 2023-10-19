@@ -13,13 +13,21 @@ const MainPage = () => {
         </p>
       </div>
       <div className={css.RightBox}>
-        <img
-          className={css.Image}
-          src={succubus}
-          alt="My Succubus Girlfriend logo"
-        />
-        <img className={css.Image} src={solo} alt="Solo bug player logo" />
-        <img className={css.Image} src={solo} alt="onepunmchman" />
+        <ul className={css.List}>
+          <li className={css.ListItem}>
+            <img
+              className={css.Image}
+              src={succubus}
+              alt="My Succubus Girlfriend logo"
+            />
+          </li>
+          <li className={css.ListItem}>
+            <img className={css.Image} src={solo} alt="Solo bug player logo" />
+          </li>
+          <li className={css.ListItem}>
+            <img className={css.Image} src={solo} alt="onepunmchman" />
+          </li>
+        </ul>
       </div>
     </div>
   );

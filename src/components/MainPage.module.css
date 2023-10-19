@@ -2,7 +2,6 @@
   color: white;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
   margin-top: 50px;
   margin-bottom: 30px;
 }
@@ -10,14 +9,23 @@
   margin: 0;
 }
 .RightBox {
-  /* padding-right: 30px; */
   margin-right: 30px;
   padding: 20px 20px;
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  align-items: center;
   background: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
 }
+.List {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
+}
+
 .LeftBox {
   padding-top: 200px;
   margin-left: 20px;
@@ -37,7 +45,6 @@
   color: #ffffff;
 }
 .Description {
-  /* max-height: 108px; */
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
